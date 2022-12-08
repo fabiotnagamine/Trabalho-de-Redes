@@ -14,19 +14,6 @@ playerTwo = 2
 playerConn = list()
 playerAddr = list()       
 
-#server side validation is disabled to reduce latency
-'''
-def validate_input(x, y, conn):
-    if x > 3 or y > 3:
-        print("\nOut of bound! Enter again...\n")
-        conn.send("Error".encode())
-        return False
-    elif matrix[x][y] != 0:
-        print("\nAlready entered! Try again...\n")
-        conn.send("Error".encode())
-        return False
-    return True
-'''
 
 def get_input(currentPlayer):
     if currentPlayer == playerOne:
