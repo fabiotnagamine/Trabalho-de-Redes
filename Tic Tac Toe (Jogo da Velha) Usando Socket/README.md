@@ -6,12 +6,12 @@ O nome jogo da velha veio do simples fato de que  mulheres idosas jogavam muito,
 
 Porém sua origem é bem mais antiga datada do século 14 antes de Cristo, não se sabe ao certo sua origem, pois temos relatos várias civilizações (chineses, america pré-colombiana) 
 
-##Descrição do Projeto
+## Descrição do Projeto
 - Utilização o socket para implementação de um simples jogo da velha, podendo assim fazer a conexão entre 2 jogadores de forma simultânea
 --- 
-##Bibliotecas Usadas
+## Bibliotecas Usadas
 
-#####Socket IO
+##### Socket IO
 
 Socket IO é uma biblioteca que permite comunicação de baixa latência , bidirecional e baseada em eventos entre um cliente e um servidor.
 
@@ -26,7 +26,7 @@ Embora o Socket IO realmente use WebSocket para transporte quando possível, ele
 O protocolo implementa no projeto para a criação do jogo é o protocolo HTTP além do protocolo TCP, no caso do TCP o servidor fica aguardando um jogador para jogar, não podemos iniciar o jogo sozinho
 
 
-#####Pygame
+##### Pygame
 
 O Pygame é um conjunto de módulos do python projetados em SDL, feita para escrever games. Permitindo a criação de jogos completos e programas multimidias na linguagem python.
 
