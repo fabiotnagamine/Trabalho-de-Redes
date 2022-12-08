@@ -57,12 +57,14 @@ py server.py
     ```
     py player.py
     Entre com o IP : localhost
+    Para saber o ip do host
+    Terminal -> digitar ipconfig -> endereço de ipv4
     ```
-
+    ![localizar o ip da máquina host](D:\Captura%20de%20tela%202022-12-08%20124741.png)
 - Jogador 2 
     ```
      py player.py
-    Entre com o IP : IP da máquina do localhost
+    Entre com o IP : IP da máquina onde está hospedado o host
     ```
 
 
